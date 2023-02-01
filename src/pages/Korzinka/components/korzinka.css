@@ -1,0 +1,9 @@
+.empty-block {
+  margin-top: 135px;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../../img/empty.gif");
+  background-size: contain;
+  margin-bottom: 50px;
+}

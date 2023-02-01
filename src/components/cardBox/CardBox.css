@@ -1,0 +1,29 @@
+.card-box {
+  margin-bottom: 100px;
+}
+
+.card-box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-box-title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 105.5%;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.btn-card {
+  background-color: transparent;
+  margin: 20px auto;
+  border: none;
+  font-size: 28px;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}

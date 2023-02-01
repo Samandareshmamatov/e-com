@@ -1,0 +1,85 @@
+.korzinka-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  border-bottom: 2px solid #29323c;
+  margin-bottom: 25px;
+}
+
+.korzinka-box button {
+  border: none;
+  background-color: transparent;
+  color: red;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+  transition-duration: 0.4s;
+  font-size: 25px;
+  transform-origin: center center center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.korzinka-box button:hover {
+  transform: scale(1.2);
+  transform: rotateZ(180deg);
+}
+
+.korzinka-box button:active {
+  transform: scale(1.4);
+  transform: rotateZ(0deg);
+}
+
+.korzinka-count {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 0 20px;
+}
+
+.korzinka-box p {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.02px;
+  width: 100px;
+  text-align: end;
+}
+
+.korzinka-btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+}
+
+.korzinka-img {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.korzinka-box h2 {
+  font-size: 22px;
+  margin-right: 20px;
+  width: 250px;
+}
+
+.korzinka-remove {
+  background-image: url("../../../../img/remove.svg");
+  width: 35px;
+  height: 35px;
+}
+
+.korzinka-delete {
+  background-image: url("../../../../img/minus.svg");
+
+}
+
+.korzinka-add {
+  background-image: url("../../../../img/plus.svg");
+}

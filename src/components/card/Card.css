@@ -1,0 +1,91 @@
+.card {
+  width: 290px;
+  height: 450px;
+  margin-bottom: 15px;
+  padding: 25px;
+  text-align: center;
+  border: 2px solid #29323c;
+  border-radius: 8px;
+  position: relative;
+  background: #485563;
+  background: linear-gradient(to right, #29323c, #485563);
+  transition-duration: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* background-color: #f9f9f9; */
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.828) -5px 5px 55px;
+  transform: scale(1.02);
+}
+
+.card:active {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transform: scale(0.98);
+
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: top center;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #f3f3f3;
+  margin-bottom: 9px;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #e3e3e3;
+  margin-bottom: 15px;
+}
+
+.card-price {
+  color: #008800;
+    font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  position: absolute;
+  bottom: 22px;
+  width: 235px;
+  left: -50px;
+}
+
+.card button {
+  background: #31313137;
+  box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 34.5px;
+
+  padding: 8px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  transition-duration: 0.3s;
+  line-height: 22px;
+  color: #ffffff;
+  cursor: pointer;
+  position: absolute;
+  bottom: 17px;
+  width: 235px;
+  right: 27.5px;
+    width: 100px;
+}
+
+.card button:hover {
+  background: #387938;
+}
+
+.card button:active {
+  background: #008800;
+  transform: scale(1.12);
+}
+

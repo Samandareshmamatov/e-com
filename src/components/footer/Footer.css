@@ -1,0 +1,34 @@
+footer {
+   background: #485563; 
+  background: linear-gradient(to right, #29323c, #485563);
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-description {
+  max-width: 320px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #fff
+}
+
+footer h2 {
+  font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+}

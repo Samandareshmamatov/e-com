@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Syne", sans-serif;
+  background-color: #3535352e;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  background: #ca0200;
+  box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 34.5px;
+  padding: 15px 50px;
+  border: none;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 115%;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button {
+  transition-duration: 0.3s;
+}
+
+.btn-card:hover {
+  color: #ca0200;
+}
+
+.btn-card:active {
+  color: #ca0300b3;
+  transform: scale(1.12);
+}

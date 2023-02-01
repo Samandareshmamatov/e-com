@@ -1,0 +1,96 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 65;
+  box-shadow: 2px 2px 38px 0px #31313138;
+  background-color: #e6e6e6ee;
+  background: linear-gradient(45deg, #29323c, #485563);
+  opacity: 0.985;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.header-logo {
+  color: #fff;
+  font-size: 32px;
+  max-width: 165px;
+}
+.header-list,
+.header-right-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #e3e3e3;
+}
+
+.header-item + .header-item {
+  margin-left: 35px;
+}
+
+.header-item-link {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.header-item-link + .header-item-link {
+  margin-left: 20px;
+}
+
+.header-item-link:nth-child(1) {
+  background: url("../../img/search.svg");
+  background-repeat: no-repeat;
+}
+
+.header-item-link:nth-child(2) {
+  background: url("../../img/korzinka.svg");
+  background-repeat: no-repeat;
+}
+
+.login-link {
+  background: url("../../img/user.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+.korzinka-link {
+  background: url("../../img/korzinka.svg") !important;
+  background-repeat: no-repeat !important;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.counter-local {
+  position: absolute;
+  display: block;
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  color: #fff;
+  font-family: sans-serif;
+  right: -10px;
+  top: -10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

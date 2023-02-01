@@ -1,0 +1,34 @@
+.level {
+  margin-bottom: 100px;
+}
+
+.level-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.level-img-box {
+  padding: 0 50px;
+}
+
+.level-content {
+  padding-left: 50px;
+}
+
+.level-title {
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 105.5%;
+  color: #000000;
+  margin-bottom: 24px;
+  max-width: 575px;
+}
+
+.level-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.71);
+  margin-bottom: 49px;
+  max-width: 510px;
+}

@@ -1,0 +1,42 @@
+.head-korzinka {
+  display: flex;
+  margin-top: 140px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 45px;
+}
+
+.head-korzinka p {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.head-remove {
+  width: 35px;
+}
+
+.head-img {
+   width: 150px;
+   text-align: start;
+}
+
+.head-title {
+    margin-right: 20px;
+  width: 250px;
+}
+
+.head-unit {
+    width: 150px;
+    text-align: end;
+}
+
+.head-btn-box {
+    width: 250px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.head-price {
+    width: 100px;
+    text-align: end;
+}

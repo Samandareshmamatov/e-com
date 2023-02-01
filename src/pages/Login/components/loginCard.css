@@ -1,0 +1,14 @@
+.login-container {
+  margin-top: 130px;
+  margin-bottom: 150px;
+}
+
+.login-box {
+  margin: 0 auto;
+  width: 450px;
+  height: 350px;
+  background: linear-gradient(135deg, #29323c, #485563);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
